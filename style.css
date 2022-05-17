@@ -1,0 +1,43 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Megrim", sans-serif;
+  background-image: url("header.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;   
+  -webkit-text-stroke: 2px;
+  text-shadow: 3px 3px 1px red;
+}
+
+.buffer {
+  height: 4rem;
+}
+
+.btn {
+  font-family: "Megrim", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-primary {
+  background-color: red;
+  border-color: red;
+  border-width: 1px;
+}
+
+.btn-primary:hover {
+  background-color: blueviolet;
+  transition-duration: 0.3s;
+  border-color: blueviolet;
+  color: gold;
+  box-shadow: 1px 1px 6px 4px white;
+  transform: scale(1.2)
+}
+
